@@ -16,7 +16,9 @@
 		<dependency>
 			<groupId>mockit</groupId>
 			<artifactId>jmockit</artifactId>
-			<version>0.999.4</version>
+			<version>0.999.10</version>
+			<scope>system</scope>
+			<systemPath>/Users/qinlong/workspace/repo/mockit/jmockit/0.999.10/jmockit-0.999.10.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>commons-dbcp</groupId>

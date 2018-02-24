@@ -192,5 +192,13 @@
 	</bean>	
 	<bean id="autoKeeperStatService"
 		class="com.alibaba.otter.manager.biz.autokeeper.impl.AutoKeeperStatServiceImpl">
-	</bean>	
+	</bean>
+	<bean id="checkSumService" class="com.alibaba.otter.manager.biz.tablechecksum.CheckSumService">
+		<property name="logRecordService">
+			<ref bean="logRecordService"/>
+		</property>
+		<property name="channelService">
+			<ref bean="channelService"/>
+		</property>
+	</bean>
 </beans>

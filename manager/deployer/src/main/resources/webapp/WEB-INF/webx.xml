@@ -181,6 +181,25 @@
 				class="com.alibaba.otter.manager.web.webx.valve.auth.AuthorizeProtected">
 				<beans:property name="urlProtected">
 					<beans:value>
+						/.*check.*\.htm
+						/.*conflictStatList\.htm
+						/.*conflict_stat_list\.htm
+						/.*behaviorHistoryCurve\.htm
+						/.*behavior_history_curve\.htm
+						/.*List\.htm
+						/.*Info\.htm
+						/.*\_list\.htm
+						/.*\_info\.htm
+						/.*\_detail\.htm
+						/.*\_path\.htm
+						/.*search.*\.htm
+						/.*analysis.*\.htm
+						/.*record.*\.htm
+						/.*Record.*\.htm
+						/.*alarmRuleList.*\.htm
+						/.*alarm_rule_list.*\.htm
+						/.*init_sql.*\.htm
+						/.*wiki_guide.*\.htm
 						/.*add.*\.htm
 						/.*edit.*\.htm
 						/.*select.*\.htm
